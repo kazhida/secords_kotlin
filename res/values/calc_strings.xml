@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="calc_dummy_num">123,456</string>
+
+    <string name="calc_sin">sin</string>
+    <string name="calc_cos">cos</string>
+    <string name="calc_tan">tan</string>
+    <string name="calc_sqrt">√￣</string>
+
+    <string name="calc_x">x</string>
+    <string name="calc_0">0</string>
+    <string name="calc_1">1</string>
+    <string name="calc_2">2</string>
+    <string name="calc_3">3</string>
+    <string name="calc_4">4</string>
+    <string name="calc_5">5</string>
+    <string name="calc_6">6</string>
+    <string name="calc_7">7</string>
+    <string name="calc_8">8</string>
+    <string name="calc_9">9</string>
+
+    <string name="calc_dot">.</string>
+    <string name="calc_add">+</string>
+    <string name="calc_sub">-</string>
+    <string name="calc_mul">×</string>
+    <string name="calc_div">÷</string>
+    <string name="calc_equal">=</string>
+
+    <string name="calc_ca">CA</string>
+    <string name="calc_c">C</string>
+    <string name="calc_bs">BS</string>
+
+    <string name="calc_m">M</string>
+    <string name="calc_m_add">M+</string>
+    <string name="calc_m_sub">M-</string>
+    <string name="calc_mr">MR</string>
+    <string name="calc_mc">MC</string>
+
+    <string name="calc_plus_minus">+/-</string>
+    <string name="calc_minus_1">-1</string>
+    <string name="calc_recip">1/x</string>
+
+    <string name="calc_calculator">Calculator</string>
+    <string name="calc_function_key">Function keys</string>
+    <string name="calc_memory_key">Memory keys</string>
+
+</resources>

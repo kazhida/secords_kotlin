@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/calc_calculator"
+            >
+        <menu>
+            <item android:id="@+id/calc_function_key_visible"
+                  android:title="@string/calc_function_key"
+                  android:checkable="true"
+                  android:checked="true"
+                    />
+            <item android:id="@+id/calc_memory_key_visible"
+                  android:title="@string/calc_memory_key"
+                  android:checkable="true"
+                  android:checked="false"
+                    />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sony.nfx.largescreen.widget.SplitLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        orientationPolicy="device"
+        layoutWeightPolicy="device"
+        >
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+        <FrameLayout
+                android:id="@+id/main_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+
+        <ImageView
+                android:id="@+id/show_palette_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_push_pin_open"
+                android:contentDescription="@string/color_palette"/>
+
+        <LinearLayout
+                android:id="@+id/palette_panel"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:background="@color/bg_panel"
+                android:visibility="gone"
+                >
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:textSize="12pt"
+                        android:text="@string/annotation"
+                        />
+                <ImageView
+                        android:id="@+id/hide_palette_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_push_pin_close"
+                        android:contentDescription="@string/color_palette"/>
+            </LinearLayout>
+            <ListView
+                    android:id="@+id/color_palette"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="4dp"
+                    />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+        <FrameLayout
+                android:id="@+id/sub_layout"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                />
+        <fragment
+                android:id="@+id/calc"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:name="com.abplus.secords.CalcFragment"
+                />
+    </LinearLayout>
+</com.sony.nfx.largescreen.widget.SplitLayout>
+

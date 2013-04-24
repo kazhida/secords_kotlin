@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="calc_panel_back">#ffffff</color>
+    <color name="calc_caption_dark">#333333</color>
+    <color name="calc_caption_light">#cccccc</color>
+
+
+</resources>
